@@ -257,19 +257,21 @@ html[xmlns] .slides {display: block;}
 /* Top Slider Caption */
 .flexslider.top_slider .slide1 {
 	width:100%;
-	background-color:#0b8e79;
-	background-image:url(../images/slider/slide1_bg.jpg);
-	background-size:cover;
+	background-color:#1972dd;
+	background-image:url(/images/MarioPhot);
+	background-size:fixed;
+	width:1000px;
+	height:1000px;
 }
 .flexslider.top_slider .slide2 {
 	width:100%;
-	background-color:#0b8e79;
+	background-color:#1972dd;
 	background-image:url(../images/slider/slide2_bg.jpg);
 	background-size:cover;
 }
 .flexslider.top_slider .slide3 {
 	width:100%;
-	background-color:#0b8e79;
+	background-color:#1972dd;
 	background-image:url(../images/slider/slide3_bg.jpg);
 	background-size:cover;
 }

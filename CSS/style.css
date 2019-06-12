@@ -212,7 +212,7 @@ header {
 	right:0;
 	height:80px;
 	width:100%;
-	background-color:#1972dd;
+	background-color:#51dad0;
 	box-shadow:0 1px 0 rgba(0,0,0,0.15);
 }
 
@@ -234,12 +234,12 @@ header {
 .navmenu li:hover a,
 .navmenu li.active a {
 	color:#333;
-	background-color:#f5c700;
+	background-color:#3bbfc3;
 }
 .navmenu li.red_bg:hover a,
 .navmenu li.red_bg.active a {
 	color:#fff;
-	background-color:#ef4836;
+	background-color:#53a0C1;
 }
 
 .navmenu ul li a:before {
@@ -375,7 +375,7 @@ header {
 /*-----------------------------------------------------------------------------------*/
 /*	PORTFOLIO
 /*-----------------------------------------------------------------------------------*/
-#portfolio {background-color:#f5c700;}
+#portfolio {background-color:#51dad0;}
 
 .work_item {
 	position:relative;
