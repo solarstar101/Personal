@@ -1,4 +1,24 @@
 /*-----------------------------------------------------------------------------------*/
+/*	Particle Effect
+/*-----------------------------------------------------------------------------------*/
+.particle-js {
+	text-align: center;
+	color: white;	
+	
+}
+.particle-container{
+	text-align: center;
+	color: white;
+	width : 100%;
+        max-width : 1200px; 	
+}
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
 /*	GENERAL STYLING
 /*-----------------------------------------------------------------------------------*/
 ::selection {background: #000; color:#fff;}
@@ -217,7 +237,7 @@ header {
 	 color: white;
 	 
 	 /* Background styles */
-	 background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('images/temp.png');
+	 background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/images/HeroImage.jpg');
 	 background-size: cover;
 	 background-position: center center;
 	 background-repeat: no-repeat;
@@ -225,7 +245,14 @@ header {
 	
 	
 }
-
+.hero-image-inner .h1
+{
+ /* Text styles */
+ text-align: center;
+ color: white;
+ position: fixed;
+	 
+}
 
 
 /* __________ Menu __________ */
