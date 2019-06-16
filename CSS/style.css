@@ -217,7 +217,7 @@ header {
 	 color: white;
 	 
 	 /* Background styles */
-	 background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('images/Banner1.jpg');
+	 background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('images/temp.png');
 	 background-size: cover;
 	 background-position: center center;
 	 background-repeat: no-repeat;
