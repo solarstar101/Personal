@@ -128,8 +128,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Lato', sans-serif;
 	text-transform:none;
 	font-weight:900;
-	color:#333;
 }
+
 h1 {margin:0 0 26px; line-height:46px; font-size:46px;}
 h2 {margin:0 0 26px; line-height:40px; font-size:40px;}
 h3 {margin:0 0 21px; line-height:38px; font-size:30px;}
@@ -216,8 +216,13 @@ header {
 
 
 /* __________ Logo __________ */
-.logo {float:left; padding:28px 0 26px;}
-.logo a {display:block;}
+.logo {float:left; padding:28px 0 26px;
+background: center / contain no-repeat;
+width: 200px;
+
+}
+
+
 
 
 /*__________Hero Image___________*/
@@ -532,18 +537,18 @@ header {
 
 
 /* __________ customers logo __________ */
-.client_logos_block {
-	margin:0 -25px;
-	text-align:center;
-}
-.client_logos_block .client_img {
+.logos_block { 
+		width: 180px;
+	  }
+.logos_block {
 	display:inline-block;
-	margin:0 12px 20px 15px;
+	margin:0 10px 20px 15px;
 	transition: all 0.3s ease-in-out; 
 	-webkit-transition: all 0.3s ease-in-out;
+	width: 180px;
 }
-.client_logos_block:hover .client_img {opacity:0.3;}
-.client_logos_block .client_img:hover {opacity:1;}
+.logos_block:hover .client_img {opacity:0.3;}
+.logos_block .client_img:hover {opacity:1;}
 
 
 
