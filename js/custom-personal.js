@@ -68,21 +68,7 @@
 		})
 
 			
-		// Type text
-		
-		var typed = new Typed('#typed-1', {
-			strings: ['a web developer.', 'a player', 'a lover', 'a racer', 'an elf', 'a web designer.'],
-			typeSpeed:45,
-			backSpeed:0,
-			startDelay:200,
-			backDelay:2200,
-			loop:true,
-			loopCount:false,
-			showCursor:true,
-			cursorChar:"_",
-			attr:null
-		});	
-		
+
 		
 		/* Progress Bar Animation */	
 		
